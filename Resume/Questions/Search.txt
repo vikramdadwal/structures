@@ -1,0 +1,26 @@
+﻿1. Given a 2D board and a word, find if the world exists in grid. [https://www.youtube.com/watch?v=m9TrOL1ETxI&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=73]
+
+
+2  Find Minimum in Rotated Sorted Array [https://www.youtube.com/watch?v=IzHR_U8Ly6c&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=157]
+
+
+3. Binary Search : Median of two sorted arrays of different sizes
+
+
+4. Rabin Karp Substring Search Pattern Matching  [https://www.youtube.com/watch?v=H4VrKHVG5qI&list=PLrmLmBdmIlpuAaSqoBfHwsJ4E-naSQfGS&index=2&t=0s]
+
+
+5. DFS  (Stack)
+
+6. BFS  (Queueu)
+7. Median of Two Sorted Arrays
+
+8. Search in Rotated Sorted Array
+
+
+9. Find First and Last Position of Element in Sorted Array
+
+10. Find the Duplicate Number
+
+11. 
+

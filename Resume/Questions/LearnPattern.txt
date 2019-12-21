@@ -1,0 +1,10 @@
+﻿1. Solve 2 tree questions
+
+2. Solve 3 Array and String, 2 pointers question
+
+3. Solve 1 Binary Search
+
+4. Solve 1 DFS or BFS
+
+5. https://backtobackswe.com/       https://github.com/bephrem1/backtobackswe    https://www.youtube.com/watch?v=hGK_5n81drs&t=627s
+

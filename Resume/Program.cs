@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Interview
 {
@@ -10,74 +6,105 @@ namespace Interview
     {
         static void Main(string[] args)
         {
-              //http://collabedit.com/us2xu
-             //https://github.com/mission-peace/interview/tree/master/src/com/interview
 
-            var res = OddOccurenceIntegers.CheckIfPermutationOFPalindrome("13334");
+            //Interview.Tree.BinarySearchTreeImplementation.MainClass.Run();
 
-            Node temp = new Node
+            //var hasPalindrom = Interview.Arrays._25.PalindromPermutation.HasPalindrom("talman");
+
+            //var compressedstring = Interview.Arrays._26.StringCompression.CompressString("aaabbccc");
+
+            //Interview.Arrays._29.SortColors.SortTheColors(new int[] { 0, 1, 1, 0, 2, 1, 1, 2 });
+
+            //Interview.Arrays._35.QuickSort.PerformQuickSort(new int[] { 7, 2, 1, 6, 8, 5, 3, 4 });
+
+            var multidimentionarray = new int[,]
             {
-                Value = "1"
+                { 1, 1, 0, 0, 0},
+                { 1, 1, 0, 0, 0},
+                { 0, 0, 1, 0, 0},
+                { 0, 0, 0, 1, 1},
+                { 0, 0, 0, 1, 1}
+
             };
 
-            Node temp2 = new Node
-            {
-                Value = "2"
-            };
+            var numberofislands = Interview.Arrays._1.NumberOfIslands.FindNumberOfIslands(multidimentionarray);
+            Console.WriteLine($"Number of Islands {numberofislands}");
 
-            Node temp3 = new Node
-            {
-                Value = "3"
-            };
+            //OldQuestions();
 
-            Node temp4 = new Node
-            {
-                Value = "4"
-            };
+            Console.ReadLine();
+        }
 
-            Node temp5 = new Node
-            {
-                Value = "5"
-            };
+        private static void OldQuestions()
+        {
+            //http://collabedit.com/us2xu
+            //https://github.com/mission-peace/interview/tree/master/src/com/interview
 
-            Node temp6 = new Node
-            {
-                Value = "5"
-            };
+            //var res = OddOccurenceIntegers.CheckIfPermutationOFPalindrome("13334");
 
-            LinkedList lst = new LinkedList();
+            //Node temp = new Node
+            //{
+            //    Value = "1"
+            //};
 
-            lst.AddToLast(temp);
-            lst.AddToLast(temp2);
-            lst.AddToLast(temp3);
-            lst.AddToLast(temp4);
-            lst.AddToLast(temp5);
+            //Node temp2 = new Node
+            //{
+            //    Value = "2"
+            //};
+
+            //Node temp3 = new Node
+            //{
+            //    Value = "3"
+            //};
+
+            //Node temp4 = new Node
+            //{
+            //    Value = "4"
+            //};
+
+            //Node temp5 = new Node
+            //{
+            //    Value = "5"
+            //};
+
+            //Node temp6 = new Node
+            //{
+            //    Value = "5"
+            //};
+
+            //LinkedList lst = new LinkedList();
+
+            //lst.AddToLast(temp);
+            //lst.AddToLast(temp2);
+            //lst.AddToLast(temp3);
+            //lst.AddToLast(temp4);
+            //lst.AddToLast(temp5);
 
 
-            Node temp66 = new Node
-            {
-                Value = "11"
-            };
+            //Node temp66 = new Node
+            //{
+            //    Value = "11"
+            //};
 
-            Node temp67 = new Node
-            {
-                Value = "21"
-            };
+            //Node temp67 = new Node
+            //{
+            //    Value = "21"
+            //};
 
-            Node temp68 = new Node
-            {
-                Value = "31"
-            };
+            //Node temp68 = new Node
+            //{
+            //    Value = "31"
+            //};
 
-            LinkedList lst2 = new LinkedList();
+            //LinkedList lst2 = new LinkedList();
 
-            lst2.AddToLast(temp66);
-            lst2.AddToLast(temp67);
-            lst2.AddToLast(temp68);
-            lst2.AddToLast(temp4);
-            lst2.AddToLast(temp5);
+            //lst2.AddToLast(temp66);
+            //lst2.AddToLast(temp67);
+            //lst2.AddToLast(temp68);
+            //lst2.AddToLast(temp4);
+            //lst2.AddToLast(temp5);
 
-            var node = LinkedListMethods.FindMergeNodeofTwoList(lst.head, lst2.head);
+            //var node = LinkedListMethods.FindMergeNodeofTwoList(lst.head, lst2.head);
 
 
             //lst.tail.Next = temp3;
@@ -135,7 +162,7 @@ namespace Interview
             //Console.WriteLine(PrimeFactorial.IsPowerOfTwo(8));
             // Console.WriteLine(PrimeFactorial.IsPowerOfTwo(4));
             //Tree();
-            var str = CommonStringMethods.ReverseWordOfStringWithoutStack("This is the test");
+            //var str = CommonStringMethods.ReverseWordOfStringWithoutStack("This is the test");
             //
             //BinarySearch.PrintOccurance();
             //BinarySearch.BInarySearch(new int[] { 1, 3, 6, 7, 2, 9, 10, 8 }, 10);

@@ -1,0 +1,128 @@
+﻿1. Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+
+
+2. Given a binary tree, determine if it is height-balanced.
+
+For this problem, a height-balanced binary tree is defined as:
+
+a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+
+
+
+3. Find Inorder Successor for given key in a BST
+Given a BST, find inorder successor of a given key in it. If the given key do not lie in the BST, then return
+the next greater key (if any) present in the BST.
+
+
+
+4. Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
+
+Given the following binary tree:  root = [3,5,1,6,2,0,8,null,null,7,4]
+
+
+[5]. Random Node: You are implementing a binary tree class from scratch which, in addition to
+insert, find, and delete, has a method get Random Node() which returns a random node
+from the tree. All nodes should be equally likely to be chosen. Design and implement an algorithm
+for get Random Node, and explain how you would implement the rest of the methods.
+
+https://www.youtube.com/watch?v=pN1RWeX47tg&t=830s
+https://www.youtube.com/watch?v=gcULXE7ViZw
+
+
+
+6. Check Subtree: T1 and T2 are two very large binary trees, with T1 much bigger than T2. Create an
+algorithm to determine if T2 is a subtree of T1.
+A tree T2 is a subtree of T1 if there exists a node n in T1 such that the subtree of n is identical to T2.
+That is, if you cut off the tree at node n, the two trees would be identical.
+
+
+
+7.  Paths with Sum: You are given a binary tree in which each node contains an integer value (which
+
+might be positive or negative). Design an algorithm to count the number of paths that sum to a
+given value. The path does not need to start or end at the root or a leaf, but it must go downwards
+(traveling only from parent nodes to child nodes).
+
+
+
+8. Given an n-ary tree, return the postorder traversal of its nodes' values.
+
+
+
+9. Given a binary tree, return the inorder traversal of its nodes' values. Recursive solution is trivial, could you do it iteratively?
+
+
+10. Given a binary tree, determine if it is a valid binary search tree (BST).
+
+
+11. Given preorder and inorder traversal of a tree, construct the binary tree.
+
+Note:
+You may assume that duplicates do not exist in the tree.
+
+For example, given
+
+preorder = [3,9,20,15,7]
+inorder = [9,3,15,20,7]
+
+
+
+12. Given a non-empty binary tree, find the maximum path sum.
+
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+
+
+
+13. Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+
+Note:
+You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
+
+
+
+14.   Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+
+15. Serialize and Deserialize Binary Tree
+
+
+16. Invert a binary tree.
+
+
+17. Given Two binary Search Trees, Check if both are identical.
+
+
+
+18. finding a sub-tree within a tree.
+
+
+19. Find distance between two nodes of a Binary Tree
+
+
+
+20. Red-Black Tree
+
+
+21 AVL Trees
+
+
+22. Breadth First Search & Depth First Search | Maximum Depth of N-ary Tree [https://www.youtube.com/watch?v=TtAflDtqwVg&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=164]
+
+
+
+23. Given a binary search tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+
+24. Kth Smallest Element in a BST
+
+
+25. Search a 2D Matrix II
+
+26. Kth Smallest Element in a Sorted Matrix
+
+
+27. Implement Trie (Prefix Tree)

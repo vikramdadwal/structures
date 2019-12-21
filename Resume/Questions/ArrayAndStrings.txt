@@ -1,0 +1,100 @@
+﻿[1]. Given a non-empty 2D array grid of 0's and 1's, an island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+Find the maximum area of an island in the given 2D array. (If there is no island, the maximum area is 0.)
+
+Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+[https://www.youtube.com/watch?v=CLvNe-8-6s8]
+
+
+2. Contains Duplicate Solution 
+
+
+3. Palindrome Number
+
+
+4. Reverse String
+
+5. Merge Two Sorted Lists
+
+
+
+6. Sort a linked List using constant space complexity
+
+
+7. Best Time to Buy and Sell Stock 
+
+
+8 . Minimum Size Subarray Sum 
+
+
+9. Max Area of Island    [https://www.youtube.com/watch?v=Us6LBYBVko4&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=75]
+
+10. Remove All Adjacent Duplicates In String [https://www.youtube.com/watch?v=hXEEr5WekSQ&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=77]
+
+11. Rotate String   [https://www.youtube.com/watch?v=kP2cpOPNYRc&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=80]
+
+12. Subarray sum equals K [https://www.youtube.com/watch?v=AmlVSNBHzJg&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=93]
+
+
+13. Design Tic-Tac-Toe Solution  [https://www.youtube.com/watch?v=m7GUQyE7o7o&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=98]
+
+
+14. Decode String [https://www.youtube.com/watch?v=0iQqj5egK9k&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=103]
+
+
+15. Rotate Array  [https://www.youtube.com/watch?v=gmu0RA5_zxs&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=106]
+
+16. Fibonacci Number [https://www.youtube.com/watch?v=WrWFfzt3ayc&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=113]
+
+17. Remove Duplicates from Sorted List   [https://www.youtube.com/watch?v=wIB5sg_Ulx4&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=131]
+
+18. Word Pattern  [https://www.youtube.com/watch?v=dnlB0lvz5LY&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=136]
+
+19. Valid Anagram  [https://www.youtube.com/watch?v=IRN1VcA8CGc&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=137]
+
+
+20 . Find All Duplicates in an Array  [https://www.youtube.com/watch?v=aMsSF1Il3IY&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=146]
+
+21. Find Minimum in Rotated Sorted Array [https://www.youtube.com/watch?v=IzHR_U8Ly6c&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=157]
+
+22. Longest Palindromic Substring [https://www.youtube.com/watch?v=y2BD4MJqV20&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=167] 
+
+
+23. Intersection of Two Arrays II
+
+
+24. sort a linked list in O(n log n) time using constant space complexity.
+
+[25]. Palindrome Permutation  [https://www.youtube.com/watch?v=Pp5hdsNdqOU] [https://www.youtube.com/watch?v=RjKu8O1yFN8]
+
+
+[26]. string compression algorithm  [https://www.youtube.com/watch?v=XMKMgzU1uiw&t=602s]
+
+
+27. Given a string, find the length of the longest substring without repeating characters.
+
+28. Given a linked list, remove the n-th node from the end of list and return its head.
+
+[29]. Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+
+Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.  [https://www.youtube.com/watch?v=uvB-Ns_TVis] 
+
+30. Given a singly linked list, determine if it is a palindrome.
+
+
+31. Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+
+32. Given an array nums containing n + 1 integers where each integer is between 1 and n (inclusive), prove that at least one duplicate number must exist. Assume that there is only one duplicate number, find the duplicate one.
+
+
+33. Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+
+34. Write a function that reverses a string. The input string is given as an array of characters char[].
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+You may assume all the characters consist of printable ascii characters.
+
+[35]  [Quick Sort: https://www.youtube.com/watch?v=COk73cpQbFQ]  [Complexity explained::   https://www.youtube.com/watch?v=aMb5GHPGQ1U]

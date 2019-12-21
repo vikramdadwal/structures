@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\1\NumberOfIslands.cs" />
+    <Compile Include="Arrays\25\PalindromPermutation.cs" />
+    <Compile Include="Arrays\26\StringCompression.cs" />
+    <Compile Include="Arrays\29\SortColors.cs" />
+    <Compile Include="Arrays\35\QuickSort.cs" />
     <Compile Include="BinarySearch.cs" />
     <Compile Include="BinaryTree.cs" />
     <Compile Include="CommonStringMethods.cs" />
@@ -56,10 +61,25 @@
     <Compile Include="Stack.cs" />
     <Compile Include="TreeMethods.cs" />
     <Compile Include="TreeNode.cs" />
+    <Compile Include="Tree\5\BinarySearchTreeImplementation\BinarySearchTree.cs" />
+    <Compile Include="Tree\5\BinarySearchTreeImplementation\MainClass.cs" />
+    <Compile Include="Tree\5\BinarySearchTreeImplementation\Reference\BinaryTree.cs" />
+    <Compile Include="Tree\5\BinarySearchTreeImplementation\Reference\TreeNode.cs" />
+    <Compile Include="Tree\5\BinarySearchTreeImplementation\TreeNode.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Questions\ArrayAndStrings.txt" />
+    <Content Include="Questions\Design.txt" />
+    <Content Include="Questions\DFS-BFS.txt" />
+    <Content Include="Questions\LearnPattern.txt" />
+    <Content Include="Questions\Search.txt" />
+    <Content Include="Questions\Tree.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
