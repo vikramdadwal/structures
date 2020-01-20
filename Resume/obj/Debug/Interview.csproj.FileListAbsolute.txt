@@ -2,6 +2,5 @@ C:\github\intview\Resume\bin\Debug\Interview.exe.config
 C:\github\intview\Resume\bin\Debug\Interview.exe
 C:\github\intview\Resume\bin\Debug\Interview.pdb
 C:\github\intview\Resume\obj\Debug\Interview.csprojAssemblyReference.cache
-C:\github\intview\Resume\obj\Debug\Interview.csproj.CoreCompileInputs.cache
 C:\github\intview\Resume\obj\Debug\Interview.exe
 C:\github\intview\Resume\obj\Debug\Interview.pdb

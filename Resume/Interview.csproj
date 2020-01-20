@@ -62,6 +62,7 @@
     <Compile Include="TreeMethods.cs" />
     <Compile Include="TreeNode.cs" />
     <Compile Include="Tree\13\KthSmallElementBST.cs" />
+    <Compile Include="Tree\1\SortedArrayToBalancedTree.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\BinarySearchTree.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\MainClass.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\Reference\BinaryTree.cs" />

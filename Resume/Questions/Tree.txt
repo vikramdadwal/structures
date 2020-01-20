@@ -1,9 +1,9 @@
-﻿1. Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+﻿[1.] Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
 
 For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
 
 
-2. Given a binary tree, determine if it is height-balanced.
+[2]. Given a binary tree, determine if it is height-balanced. (https://www.youtube.com/watch?v=LU4fGD-fgJQ)
 
 For this problem, a height-balanced binary tree is defined as:
 
@@ -59,15 +59,6 @@ given value. The path does not need to start or end at the root or a leaf, but i
 10. Given a binary tree, determine if it is a valid binary search tree (BST).
 
 
-xxxxx-----11. Given preorder and inorder traversal of a tree, construct the binary tree.
-
-Note:
-You may assume that duplicates do not exist in the tree.
-
-For example, given
-
-preorder = [3,9,20,15,7]
-inorder = [9,3,15,20,7]
 
 
 
@@ -84,10 +75,7 @@ You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
 
 
 
-14.   Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
-
-
-15. Serialize and Deserialize Binary Tree
+[15]. Serialize and Deserialize Binary Tree    https://www.youtube.com/watch?v=suj1ro8TIVY
 
 
 16. Invert a binary tree.

@@ -37,6 +37,12 @@ namespace Interview
             Interview.Tree._9.Iterative.InOrderTraversal.Traverse(root);
             Console.WriteLine();
             Interview.Tree._13.KthSmallElementBST.PrintElement(root, 4);
+
+
+            int[] sortedArray = new int[] { 2, 6, 8, 10, 14, 20, 28, 32 };
+            var tree = Interview.Tree._1.SortedArrayToBalancedTree.Convert(sortedArray);
+
+
             //OldQuestions();
 
             Console.ReadLine();
