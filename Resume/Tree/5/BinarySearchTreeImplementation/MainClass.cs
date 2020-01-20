@@ -40,5 +40,22 @@ namespace Interview.Tree.BinarySearchTreeImplementation
             Console.WriteLine($"Found the following value:: { node?.Data }");
 
         }
+
+        public static TreeNode GetSampleBinarySearchTree()
+        {
+            var binarySearchTree = new BinarySearchTree();
+
+            binarySearchTree.Insert(55);
+            binarySearchTree.Insert(99);
+            binarySearchTree.Insert(89);
+            binarySearchTree.Insert(23);
+            binarySearchTree.Insert(67);
+            binarySearchTree.Insert(94);
+            binarySearchTree.Insert(22);
+            binarySearchTree.Insert(44);
+            binarySearchTree.Insert(11);
+
+            return binarySearchTree.root;
+        }
     }
 }

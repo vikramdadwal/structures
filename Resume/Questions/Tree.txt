@@ -53,13 +53,13 @@ given value. The path does not need to start or end at the root or a leaf, but i
 
 
 
-9. Given a binary tree, return the inorder traversal of its nodes' values. Recursive solution is trivial, could you do it iteratively?
+[9]. Given a binary tree, return the inorder traversal of its nodes' values. Recursive solution is trivial, could you do it iteratively?  [https://www.youtube.com/watch?v=WZwNoTm_9d8]   [Explanation:  https://www.youtube.com/watch?v=nzmtCFNae9k]
 
 
 10. Given a binary tree, determine if it is a valid binary search tree (BST).
 
 
-11. Given preorder and inorder traversal of a tree, construct the binary tree.
+xxxxx-----11. Given preorder and inorder traversal of a tree, construct the binary tree.
 
 Note:
 You may assume that duplicates do not exist in the tree.
@@ -77,7 +77,7 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 
 
-13. Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+[13]. Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.  [https://www.youtube.com/watch?v=C6r1fDKAW_o]
 
 Note:
 You may assume k is always valid, 1 ≤ k ≤ BST's total elements.

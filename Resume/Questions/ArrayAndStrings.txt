@@ -54,7 +54,7 @@ Given a 2d grid map of '1's (land) and '0's (water), count the number of islands
 19. Valid Anagram  [https://www.youtube.com/watch?v=IRN1VcA8CGc&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=137]
 
 
-20 . Find All Duplicates in an Array  [https://www.youtube.com/watch?v=aMsSF1Il3IY&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=146]
+20] . Find All Duplicates in an Array  [https://www.youtube.com/watch?v=aMsSF1Il3IY&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=146]
 
 21. Find Minimum in Rotated Sorted Array [https://www.youtube.com/watch?v=IzHR_U8Ly6c&list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-&index=157]
 

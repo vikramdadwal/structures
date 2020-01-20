@@ -17,19 +17,26 @@ namespace Interview
 
             //Interview.Arrays._35.QuickSort.PerformQuickSort(new int[] { 7, 2, 1, 6, 8, 5, 3, 4 });
 
-            var multidimentionarray = new int[,]
-            {
-                { 1, 1, 0, 0, 0},
-                { 1, 1, 0, 0, 0},
-                { 0, 0, 1, 0, 0},
-                { 0, 0, 0, 1, 1},
-                { 0, 0, 0, 1, 1}
+            //var multidimentionarray = new int[,]
+            //{
+            //    { 1, 1, 0, 0, 0},
+            //    { 1, 1, 0, 0, 0},
+            //    { 0, 0, 1, 0, 0},
+            //    { 0, 0, 0, 1, 1},
+            //    { 0, 0, 0, 1, 1}
 
-            };
+            //};
 
-            var numberofislands = Interview.Arrays._1.NumberOfIslands.FindNumberOfIslands(multidimentionarray);
-            Console.WriteLine($"Number of Islands {numberofislands}");
+            //var numberofislands = Interview.Arrays._1.NumberOfIslands.FindNumberOfIslands(multidimentionarray);
+            //Console.WriteLine($"Number of Islands {numberofislands}");
 
+
+            var root = Interview.Tree.BinarySearchTreeImplementation.MainClass.GetSampleBinarySearchTree();
+            Interview.Tree._9.Recursive.InOrderTraversal.Traverse(root);
+            Console.WriteLine();
+            Interview.Tree._9.Iterative.InOrderTraversal.Traverse(root);
+            Console.WriteLine();
+            Interview.Tree._13.KthSmallElementBST.PrintElement(root, 4);
             //OldQuestions();
 
             Console.ReadLine();

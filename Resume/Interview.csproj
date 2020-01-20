@@ -61,11 +61,14 @@
     <Compile Include="Stack.cs" />
     <Compile Include="TreeMethods.cs" />
     <Compile Include="TreeNode.cs" />
+    <Compile Include="Tree\13\KthSmallElementBST.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\BinarySearchTree.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\MainClass.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\Reference\BinaryTree.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\Reference\TreeNode.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\TreeNode.cs" />
+    <Compile Include="Tree\9\Iterative\InOrderTraversal.cs" />
+    <Compile Include="Tree\9\Recursive\InOrderTraversal.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
