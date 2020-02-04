@@ -31,17 +31,33 @@ namespace Interview
             //Console.WriteLine($"Number of Islands {numberofislands}");
 
 
-            var root = Interview.Tree.BinarySearchTreeImplementation.MainClass.GetSampleBinarySearchTree();
-            Interview.Tree._9.Recursive.InOrderTraversal.Traverse(root);
-            Console.WriteLine();
-            Interview.Tree._9.Iterative.InOrderTraversal.Traverse(root);
-            Console.WriteLine();
-            Interview.Tree._13.KthSmallElementBST.PrintElement(root, 4);
+            //var root = Interview.Tree.BinarySearchTreeImplementation.MainClass.GetSampleBinarySearchTree();
+            //Interview.Tree._9.Recursive.InOrderTraversal.Traverse(root);
+            //Console.WriteLine();
+            //Interview.Tree._9.Iterative.InOrderTraversal.Traverse(root);
+            //Console.WriteLine();
+            //Interview.Tree._13.KthSmallElementBST.PrintElement(root, 4);
 
 
-            int[] sortedArray = new int[] { 2, 6, 8, 10, 14, 20, 28, 32 };
-            var tree = Interview.Tree._1.SortedArrayToBalancedTree.Convert(sortedArray);
+            //int[] sortedArray = new int[] { 2, 6, 8, 10, 14, 20, 28, 32 };
+            //var tree = Interview.Tree._1.SortedArrayToBalancedTree.Convert(sortedArray);
 
+            //var ans = Interview.Arrays._36.PowerOfTwo.IsPOwerOfTwo(256);
+
+            //var ans = Interview.Arrays._37.PalindromeORNot.IsPalindrome("A man, a plan, a canal: Panama");
+
+            //var root = Interview.Tree.BinarySearchTreeImplementation.MainClass.GetSampleBinarySearchTree();
+            //var depth = Interview.Tree._28.MaxDepthOfBinaryTree.FindMaxDepthOfBinaryTree(root);
+
+
+            var minsummatrix = new int[,]
+            {
+                { 1, 3, 1 },
+                { 1, 5, 1 },
+                { 4, 2, 1 }
+            };
+
+            var minsum = Interview.Arrays._38.MinPathSumMatrix.GetMinPathSum(minsummatrix);
 
             //OldQuestions();
 

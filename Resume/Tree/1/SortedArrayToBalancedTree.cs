@@ -9,14 +9,14 @@ namespace Interview.Tree._1
 {
     public static class SortedArrayToBalancedTree
     {
-        public static TreeNode Convert(int[] sortedArray)
+        public static OldTreeNode Convert(int[] sortedArray)
         {
             var binaryTree = CreateBinaryTree(sortedArray, 0, sortedArray.Length - 1);
             TreeMethods.InOrderTraversal(binaryTree);
             return binaryTree;
         }
 
-        private static TreeNode CreateBinaryTree(int[] sortedArray, int start, int end)
+        private static OldTreeNode CreateBinaryTree(int[] sortedArray, int start, int end)
         {
             if(start > end)
             {
@@ -25,7 +25,7 @@ namespace Interview.Tree._1
 
             int mid = (start + end) / 2;
 
-            var root = new TreeNode(sortedArray[mid]);
+            var root = new OldTreeNode(sortedArray[mid]);
             root.Left = CreateBinaryTree(sortedArray, start, mid - 1);
             root.Right = CreateBinaryTree(sortedArray, mid + 1, end);
 

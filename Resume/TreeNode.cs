@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Interview
 {
-    public class TreeNode
+    public class OldTreeNode
     {
         public int Value { get; set; }
-        public TreeNode Left { get; set; }
-        public TreeNode Right { get; set; }
-        public TreeNode(int val)
+        public OldTreeNode Left { get; set; }
+        public OldTreeNode Right { get; set; }
+        public OldTreeNode(int val)
         {
             this.Value = val;
         }

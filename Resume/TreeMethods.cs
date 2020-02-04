@@ -12,10 +12,10 @@ namespace Interview
     /// </summary>
     public class TreeMethods
     {
-        public static void FindMininBST(TreeNode header)
+        public static void FindMininBST(OldTreeNode header)
         {
             var current = header;
-            TreeNode previous = null;
+            OldTreeNode previous = null;
 
             while (current != null)
             {
@@ -26,10 +26,10 @@ namespace Interview
             Console.WriteLine(previous.Value);
         }
 
-        public static void FindMaxinBST(TreeNode header)
+        public static void FindMaxinBST(OldTreeNode header)
         {
             var current = header;
-            TreeNode previous = null;
+            OldTreeNode previous = null;
             while (current != null)
             {
                 previous = current;
@@ -39,7 +39,7 @@ namespace Interview
             Console.WriteLine(previous.Value);
         }
 
-        public static int FindHeight(TreeNode header)
+        public static int FindHeight(OldTreeNode header)
         {
             // Height of tree –The height of a tree is the number of edges on the longest downward path between the root and a leaf.
             //Height of node –The height of a node is the number of edges on the longest downward path between that node and a leaf.
@@ -56,19 +56,19 @@ namespace Interview
 
         #region > Travesal <
 
-        public static void BFT_LevelOrderTraversal(TreeNode header)
+        public static void BFT_LevelOrderTraversal(OldTreeNode header)
         {
             if (header == null)
             {
                 return;
             }
 
-            Queue<TreeNode> queue = new Queue<TreeNode>();
+            Queue<OldTreeNode> queue = new Queue<OldTreeNode>();
             queue.Enqueue(header);
 
             while (queue.Any())
             {
-                TreeNode current = queue.Dequeue();
+                OldTreeNode current = queue.Dequeue();
                 Console.WriteLine(current.Value);
 
                 if (current.Left != null)
@@ -86,7 +86,7 @@ namespace Interview
 
         #region > Recursive <
 
-        public static void PreOrderTraversal(TreeNode header)
+        public static void PreOrderTraversal(OldTreeNode header)
         {
             // {root} -> left -> right
             if (header == null) return;
@@ -98,7 +98,7 @@ namespace Interview
 
         }
 
-        public static void InOrderTraversal(TreeNode header)
+        public static void InOrderTraversal(OldTreeNode header)
         {
             // left --> {root} -> right
             if (header == null) return;
@@ -109,7 +109,7 @@ namespace Interview
 
         }
 
-        public static void PostOrderTraversal(TreeNode header)
+        public static void PostOrderTraversal(OldTreeNode header)
         {
             // left --> right --> {root}
             if (header == null) return;
@@ -126,9 +126,9 @@ namespace Interview
         #region > Iterative <
 
         // left --> {root} -> right
-        public static void InOrderIterative(TreeNode root)
+        public static void InOrderIterative(OldTreeNode root)
         {
-            Stack<TreeNode> stack = new Stack<TreeNode>();
+            Stack<OldTreeNode> stack = new Stack<OldTreeNode>();
 
             while(true)
             {
@@ -150,9 +150,9 @@ namespace Interview
         }
 
         // {root} -> left -> right
-        public static void PreOrderIterative(TreeNode root)
+        public static void PreOrderIterative(OldTreeNode root)
         {
-            Stack<TreeNode> stack = new Stack<TreeNode>();
+            Stack<OldTreeNode> stack = new Stack<OldTreeNode>();
 
             stack.Push(root);
             while(stack.Any())
@@ -170,10 +170,10 @@ namespace Interview
 
 
         // left --> right --> {root}
-        public static void PostOrderIterative(TreeNode root)
+        public static void PostOrderIterative(OldTreeNode root)
         {
-            Stack<TreeNode> stack1 = new Stack<TreeNode>();
-            Stack<TreeNode> stack2 = new Stack<TreeNode>();
+            Stack<OldTreeNode> stack1 = new Stack<OldTreeNode>();
+            Stack<OldTreeNode> stack2 = new Stack<OldTreeNode>();
 
             stack1.Push(root);
             while (stack1.Any())
@@ -201,13 +201,13 @@ namespace Interview
 
         #endregion
         
-        public static void BT_is_BST(TreeNode header)
+        public static void BT_is_BST(OldTreeNode header)
         {
             isBSTUtil(header, int.MinValue, int.MaxValue);
 
         }
 
-        public static bool isBSTUtil(TreeNode root, int min, int max)
+        public static bool isBSTUtil(OldTreeNode root, int min, int max)
         {
             if (root == null) return true;
 
@@ -219,7 +219,7 @@ namespace Interview
             return false;
         }
 
-        public static bool IsBSTUsingInOrderTraversal(TreeNode root, TreeNode previous = null)
+        public static bool IsBSTUsingInOrderTraversal(OldTreeNode root, OldTreeNode previous = null)
         {
             if (root != null)
             {
@@ -239,7 +239,7 @@ namespace Interview
             return true;
         }
 
-        public static TreeNode DeleteNode(TreeNode root, int value)
+        public static OldTreeNode DeleteNode(OldTreeNode root, int value)
         {
             if (root == null) return root;
 
@@ -273,7 +273,7 @@ namespace Interview
                 //Case 3:  Two child
                 else
                 {
-                    TreeNode temp = FindMin(root.Right);  // Find min in the right subtree
+                    OldTreeNode temp = FindMin(root.Right);  // Find min in the right subtree
                     root.Value = temp.Value; // Copy the value in targetted node
                     root.Right = DeleteNode(root.Right, temp.Value); // Delete duplicate from the right subtree
                 }
@@ -282,10 +282,10 @@ namespace Interview
             return root;
         }
 
-        public static TreeNode FindMin(TreeNode header)
+        public static OldTreeNode FindMin(OldTreeNode header)
         {
             var current = header;
-            TreeNode previous = null;
+            OldTreeNode previous = null;
 
             while (current != null)
             {
@@ -296,7 +296,7 @@ namespace Interview
             return previous;
         }
 
-        public static bool SameTree(TreeNode tree1, TreeNode tree2)
+        public static bool SameTree(OldTreeNode tree1, OldTreeNode tree2)
         {
             if (tree1 == null && tree2 == null)
                 return true;
@@ -330,14 +330,14 @@ namespace Interview
         /// Big O (H)   h is hight of the tree
         /// </summary>
         /// <param name="root"></param>
-        public static TreeNode FindInorderSuccesor(TreeNode root, int data)
+        public static OldTreeNode FindInorderSuccesor(OldTreeNode root, int data)
         {
             if(root == null)
             {
                 return null;
             }
 
-            TreeNode currentNode = FindNode(root, data); // First find the node for which the successor needs to be find
+            OldTreeNode currentNode = FindNode(root, data); // First find the node for which the successor needs to be find
 
             if (currentNode == null) return null;
 
@@ -351,8 +351,8 @@ namespace Interview
             else
             {
                 // Case2
-                TreeNode succesor = null;
-                TreeNode ancesstor = root;
+                OldTreeNode succesor = null;
+                OldTreeNode ancesstor = root;
 
                 while(ancesstor != currentNode)
                 {
@@ -392,7 +392,7 @@ namespace Interview
 
         } 
 
-        private static TreeNode FindMinNodeinRight(TreeNode node)
+        private static OldTreeNode FindMinNodeinRight(OldTreeNode node)
         {
             if (node == null)
             {
@@ -407,9 +407,9 @@ namespace Interview
             return node;
         }
 
-        private static TreeNode FindNode(TreeNode root, int data)
+        private static OldTreeNode FindNode(OldTreeNode root, int data)
         {
-            TreeNode bresult = null;
+            OldTreeNode bresult = null;
 
             if (root == null)
             {
@@ -435,7 +435,7 @@ namespace Interview
 
         #region > Common Ancestor For BST and BT <
 
-        public static TreeNode CommonAncestorBST(TreeNode root, int a, int b)
+        public static OldTreeNode CommonAncestorBST(OldTreeNode root, int a, int b)
         {
             if (root == null) return null;
 
@@ -454,13 +454,13 @@ namespace Interview
 
         }
 
-        public static TreeNode CommonAncestorBT(TreeNode root, TreeNode a, TreeNode b)
+        public static OldTreeNode CommonAncestorBT(OldTreeNode root, OldTreeNode a, OldTreeNode b)
         {
             var res = CommonAncestorHelperBT(root, a, b);
             if (res.isAncestor) return res.Node;
             return null;
         }
-        public static Result CommonAncestorHelperBT(TreeNode root, TreeNode a, TreeNode b)
+        public static Result CommonAncestorHelperBT(OldTreeNode root, OldTreeNode a, OldTreeNode b)
         {
             if (root == null)
                 return new Result(null, false);
@@ -504,7 +504,7 @@ namespace Interview
 
         #region > Is Balanced Tree < 
 
-        public static int getheight(TreeNode node)
+        public static int getheight(OldTreeNode node)
         {
             if (node == null)
             {
@@ -515,7 +515,7 @@ namespace Interview
         }
 
         //>>>>>> O( n log n)
-        public static bool IsBalanced(TreeNode node)
+        public static bool IsBalanced(OldTreeNode node)
         {
             if (node == null) return true;
 
@@ -534,7 +534,7 @@ namespace Interview
 
 
         //>>>>>> O(n) // best approach
-        public static bool IsBalanaced(TreeNode node)
+        public static bool IsBalanaced(OldTreeNode node)
         {
             if (validateHeight(node) == -1)
             {
@@ -544,7 +544,7 @@ namespace Interview
                 return true;
         }
 
-        public static int validateHeight(TreeNode node)
+        public static int validateHeight(OldTreeNode node)
         {
             if (node == null)
             {
@@ -579,7 +579,7 @@ namespace Interview
 
         #region > Number of paths with = sum <
 
-        public static int CountPathsWithSum(TreeNode node, int sum)
+        public static int CountPathsWithSum(OldTreeNode node, int sum)
         {
             if (node == null) return 0;
 
@@ -592,7 +592,7 @@ namespace Interview
 
         }
 
-        private static int CountPathFromNode(TreeNode node, int sum, int currentSum)
+        private static int CountPathFromNode(OldTreeNode node, int sum, int currentSum)
         {
             if (node == null) return 0;
 
@@ -622,7 +622,7 @@ namespace Interview
         /// <param name="T1"></param>
         /// <param name="T2"></param>
         /// <returns></returns>
-        public static bool IsSubtree(TreeNode T1, TreeNode T2)
+        public static bool IsSubtree(OldTreeNode T1, OldTreeNode T2)
         {
             if (T2 == null)
                 return true;
@@ -630,7 +630,7 @@ namespace Interview
             return Subtree(T1, T2);
         }
 
-        private static bool Subtree(TreeNode T1, TreeNode T2)
+        private static bool Subtree(OldTreeNode T1, OldTreeNode T2)
         {
             if (T1 == null) return false;  //reached end of tree a but b is not found
 
@@ -642,7 +642,7 @@ namespace Interview
             return Subtree(T1.Left, T2) || Subtree(T1.Right, T2); //Continue traversing-
         }
 
-        private static bool SameSubTree(TreeNode T1, TreeNode T2)
+        private static bool SameSubTree(OldTreeNode T1, OldTreeNode T2)
         {
             if (T1 == null && T2 == null) // both reached end of traversal
                 return true;
@@ -660,7 +660,7 @@ namespace Interview
 
         #region > Count nodes that are in a given range <
 
-        public static int getcount(TreeNode root, int min, int max)
+        public static int getcount(OldTreeNode root, int min, int max)
         {
             if (root == null) return 0;
 
@@ -687,9 +687,9 @@ namespace Interview
     public class Result
     {
         public bool isAncestor;
-        public TreeNode Node;
+        public OldTreeNode Node;
 
-        public Result(TreeNode node, bool isAncestor)
+        public Result(OldTreeNode node, bool isAncestor)
         {
             this.isAncestor = isAncestor;
             this.Node = node;

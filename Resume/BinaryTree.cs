@@ -9,14 +9,14 @@ namespace Interview
     public class BinaryTree
     {
 
-        public TreeNode _head;
+        public OldTreeNode _head;
         int count = 0;
 
         public void Add(int value)
         {
             if (_head == null)
             {
-                _head = new TreeNode(value);
+                _head = new OldTreeNode(value);
             }
             else
             {
@@ -26,13 +26,13 @@ namespace Interview
             count++;
         }
 
-        private void AddTo(TreeNode node, int val)
+        private void AddTo(OldTreeNode node, int val)
         {
             if (val < node.Value)
             {
                 if (node.Left == null)
                 {
-                    node.Left = new TreeNode(val);
+                    node.Left = new OldTreeNode(val);
                 }
                 else
                 {
@@ -43,7 +43,7 @@ namespace Interview
             {
                 if (node.Right == null)
                 {
-                    node.Right = new TreeNode(val);
+                    node.Right = new OldTreeNode(val);
                 }
                 else
                 {

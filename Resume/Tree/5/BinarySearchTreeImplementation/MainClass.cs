@@ -55,6 +55,17 @@ namespace Interview.Tree.BinarySearchTreeImplementation
             binarySearchTree.Insert(44);
             binarySearchTree.Insert(11);
 
+            /*
+             
+                              55
+                            /     \    
+                           23       99                           
+                          /  \      /
+                         22  44     89
+                        /           /  \
+                       11          67   94
+            */
+
             return binarySearchTree.root;
         }
     }

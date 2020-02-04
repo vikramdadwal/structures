@@ -47,6 +47,9 @@
     <Compile Include="Arrays\26\StringCompression.cs" />
     <Compile Include="Arrays\29\SortColors.cs" />
     <Compile Include="Arrays\35\QuickSort.cs" />
+    <Compile Include="Arrays\36\PowerOfTwo.cs" />
+    <Compile Include="Arrays\37\PalindromeORNot.cs" />
+    <Compile Include="Arrays\38\MinPathSumMatrix.cs" />
     <Compile Include="BinarySearch.cs" />
     <Compile Include="BinaryTree.cs" />
     <Compile Include="CommonStringMethods.cs" />
@@ -63,6 +66,7 @@
     <Compile Include="TreeNode.cs" />
     <Compile Include="Tree\13\KthSmallElementBST.cs" />
     <Compile Include="Tree\1\SortedArrayToBalancedTree.cs" />
+    <Compile Include="Tree\28\MaxDepthOfBinaryTree.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\BinarySearchTree.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\MainClass.cs" />
     <Compile Include="Tree\5\BinarySearchTreeImplementation\Reference\BinaryTree.cs" />

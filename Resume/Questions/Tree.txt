@@ -114,3 +114,5 @@ You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
 
 
 27. Implement Trie (Prefix Tree)
+
+[28]. Maximum Depth of a binary tree

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Interview
@@ -23,6 +24,11 @@ namespace Interview
             {
                 System.Console.Write($"{item} ");
             }
+        }
+
+        public static bool IsVaildAlphaNumericCHar(string strToCheck)
+        {
+            return strToCheck.All(char.IsLetterOrDigit);
         }
     }
 }

@@ -12,11 +12,11 @@ namespace Interview.Arrays._1
         {
             int numberofislands = 0;
             // Note 0 represent rows and 1 represent columns in GetLength
-            for(int row = 0; row < array.GetLength(1); row++)
+            for (int row = 0; row < array.GetLength(0); row++)
             {
-                for(int column = 0; column < array.GetLength(1); column++)
+                for (int column = 0; column < array.GetLength(1); column++)
                 {
-                    if(array[row, column] == 1)
+                    if (array[row, column] == 1)
                     {
                         numberofislands++;
                         ChangeLandToWater(array, row, column);
@@ -29,7 +29,7 @@ namespace Interview.Arrays._1
 
         private static void ChangeLandToWater(int[,] array, int row, int column)
         {
-            if(row >= array.GetLength(1) || row < 0 || column < 0 || column >= array.GetLength(0) || array[row, column] == 0)
+            if (row >= array.GetLength(0) || row < 0 || column < 0 || column >= array.GetLength(1) || array[row, column] == 0)
             {
                 return;
             }
