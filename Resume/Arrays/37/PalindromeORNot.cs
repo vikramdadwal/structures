@@ -42,6 +42,38 @@ namespace Interview.Arrays._37
 
         }
 
+        public static bool IsPalindrome202(string input)
+        {
+            char[] allchars = input.ToLower().ToCharArray();
+
+            int i = 0;
+            int j = allchars.Length - 1;
+
+            while(i < j)
+            {
+
+                while(i < j && !char.IsLetterOrDigit(allchars[i]))
+                {
+                    i++;
+                }
+
+                while(i < j && !char.IsLetterOrDigit(allchars[j]))
+                {
+                    j--;
+                }
+
+                if(allchars[i] != allchars[j])
+                {
+                    return false;
+                }
+
+                i++;
+                j--;
+            }
+
+            return true;
+        }
+
         
     }
 }
