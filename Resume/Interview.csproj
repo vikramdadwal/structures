@@ -50,6 +50,9 @@
     <Compile Include="Arrays\36\PowerOfTwo.cs" />
     <Compile Include="Arrays\37\PalindromeORNot.cs" />
     <Compile Include="Arrays\38\MinPathSumMatrix.cs" />
+    <Compile Include="Arrays\39\ValidParentheses.cs" />
+    <Compile Include="Arrays\41\LongestCommonPrefix.cs" />
+    <Compile Include="Arrays\42\FirstUniqueCharacterinaString.cs" />
     <Compile Include="BinarySearch.cs" />
     <Compile Include="BinaryTree.cs" />
     <Compile Include="CommonStringMethods.cs" />

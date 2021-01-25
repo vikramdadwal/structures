@@ -1,3 +1,7 @@
+using Interview.Arrays._37;
+using Interview.Arrays._39;
+using Interview.Arrays._41;
+using Interview.Arrays._42;
 using System;
 
 namespace Interview
@@ -50,16 +54,26 @@ namespace Interview
             //var depth = Interview.Tree._28.MaxDepthOfBinaryTree.FindMaxDepthOfBinaryTree(root);
 
 
-            var minsummatrix = new int[,]
-            {
-                { 1, 3, 1 },
-                { 1, 5, 1 },
-                { 4, 2, 1 }
-            };
+            //var minsummatrix = new int[,]
+            //{
+            //    { 1, 3, 1 },
+            //    { 1, 5, 1 },
+            //    { 4, 2, 1 }
+            //};
 
-            var minsum = Interview.Arrays._38.MinPathSumMatrix.GetMinPathSum(minsummatrix);
+            //var minsum = Interview.Arrays._38.MinPathSumMatrix.GetMinPathSum(minsummatrix);
 
             //OldQuestions();
+
+
+            // var result = ValidParentheses.HasValidParanthesis("([)]");
+
+            //var result = LongestCommonPrefix.FindCommonPrefix(new string[] { "racecar", "racecar", "race" });
+
+            //var result = PalindromeORNot.IsPalindrome202("A @@ man, a plan, a canal: Panama");
+
+            var result = FirstUniqueCharacterinaString.FirstIndex("aadadaad");
+
 
             Console.ReadLine();
         }
